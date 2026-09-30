@@ -1,0 +1,9 @@
+{
+  "name": "silver-nails-system-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Silver Nails operational demo: static browser + optional local SQLite/SSE server",
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node server.mjs", "start:lan": "node server.mjs --lan", "test": "node --test tests/*.test.mjs" }
+}
